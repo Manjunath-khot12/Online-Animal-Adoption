@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Open+Sans:wght@300;400;500;600&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+			box-sizing:border-box;
+
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	z-index:100;
+}
+.navbar .logo{
+	width: 320px;
+	height: auto;
+	padding: 30px 100px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 50px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+footer
+{
+   padding:25px;
+   position:fixed ;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-size:15px;
+}
+
+
+
+
+body {
+    width: 100%;
+    height: 115vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+	overflow:scroll;
+}
+
+.container5
+{
+	background:white;
+	width:550px;
+	height:625px;
+	padding:25px;
+	margin:50px auto 0;
+	border-top:5px solid blue;
+	box-shadow:0 0 7px  5px rgba(0, 0 ,0,0.9);
+	margin-top:15px;
+
+	
+}
+.container5 h4
+{
+	font-size:24px;
+	line-height:24px;
+	padding:20px;
+	text-align:center;
+}
+.input-name
+{
+	width:90%;
+	position:relative;
+	margin:20px auto;
+}
+.lock
+{
+	padding:8px 11px;
+}
+.name1
+{
+	width:45%;
+	padding:8px 0 8px 40px;
+}
+.input-name span
+{
+	margin-left:35px;
+}
+.text-name
+{
+	width:100%;
+	padding:8px 0 8px 40px;
+}
+.input-name i
+{
+	position:absolute;
+	font-size:18px;
+	color:blue;
+	border-right:1px solid #cccccc;
+	padding:8px;
+}
+.text-name, .name1
+{
+	border:1px solid #cccccc;
+	outline:none;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+     transition: all 0.30s ease-in-out;
+}
+.text-name:hover, .name1:hover
+{
+	background-color:#fafafa;
+}
+.text-name:focus, .name1:focus
+{
+	border:1px solid blue;
+}
+.radio-button
+{
+	margin-left:5px;
+}
+.country
+{
+	display:inline-block;
+	width:100%;
+	height:35px;
+	padding:0px 15px;
+	cursor:pointer;
+	border:2px solid #cccccc;
+	color:#7b7b7b;
+	border-radius:0;
+	background:white;
+	appearance:none;
+}
+.country::ms-expand
+{
+	display:none;
+}
+.country:hover, .country:focus
+{
+	color:black;
+	background:#fafafa;
+	border-color:blue;
+	outline:none;
+}
+.arrow
+{
+	position:absolute;
+	top:calc(50% - 4px);
+	right:15px;
+	width:0;
+	height:0;
+	pointer-events:none;
+	border-width:8px 5px 0 5px;
+	border-style:solid;
+	border-color: #7b7b7b transparent;
+	
+}
+.country:hover + .arrow, .country:focus +arrow
+{
+	border-top-color:blue;
+}
+.check
+{
+	margin-right:15px;
+	position:relative;
+}
+.check::before
+{
+	content:"";
+	display:inline-block;
+	width:8px;
+	height:8px;
+	margin-right:8px;
+	vertical-align:-2px;
+	border:2px solid #cccccc;
+	padding:2.5px;
+	background-color:transparent;
+	background-clip:content-box;
+	transition:all 0.2s ease;
+}
+.check::after
+{
+	border-right:2px solid black;
+	border-top:2px solid black;
+	content:"";
+	height:20px;
+	left:2px;
+	position:absolute;
+	top:7px;
+	transform:scaleX(-1)rotate(135deg);
+	transform-origin:left top;
+	width:7px;
+	display:none;
+}
+.check-button
+{
+	border:0;
+	clip:rect(0 0 0 0);
+	height:1px;
+	margin:-1px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	width:1px;
+}
+.check-button:hover +.check::before
+{
+	border-color:blue;
+}
+.check-button:checked +.check::before
+{
+	border-color:green
+}
+.check-button:checked +.check::after
+{
+	-moz-animation: check 1s ease 0s running;
+	-webkit-animation: check 0.8s ease 0s running;
+	animation: check 1s ease 0s running;
+	display:block;
+	width:7px;
+	height:20px;
+	border-color:green;
+} 
+@keyframes check
+{
+	0%
+	{
+		height: 0;
+		width:0;
+	}
+	25%
+	{
+		height: 0;
+		width:7px;
+	}
+	50%
+	{
+		height: 20px;
+		width:7px;
+	}
+}
+.button1
+{
+	background-color:blue;
+	color:white;
+	height:35px;
+	line-height:35px;
+	width:100%;
+	font-size:20px;
+	cursor:pointer;
+	margin-bottom:0px;
+}
+.button1:hover
+{
+	background-color:green;
+	
+}

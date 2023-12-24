@@ -1,0 +1,326 @@
+body
+{
+background:url('../IMAGES/body1.jpg');
+}
+.login-image
+{
+	border:3px solid blue;
+	background-color:;
+	border-radius:40px;
+	padding:5px;
+	position:absolute;
+	left:1200px;
+	top:31px;
+}
+.span-text
+{
+	color:white;
+	font-size:40px;
+	font-weight:bold;
+	font-family:monospace;
+	position:absolute;
+	left:600px;
+	top:45px;
+}
+.back-link
+{
+  color:white;
+  position:relative;
+  left:200px; 
+top:50px;  
+  font-size:40px;
+  font-weight:bold;
+  font-family:monospace;
+  padding:10px;
+}
+.admin-signup
+{
+	color:white;
+	font-size:35px;
+  font-weight:bold;
+  font-family:monospace;
+  position:relative;
+  left:1100px;  
+  top:150px;
+}
+.back-link:hover
+{
+	color:pink;
+	border-bottom:1px solid white;	
+}
+
+.login-content
+{
+	background-color:#fff;
+	margin-left:400px;
+	border:1px solid black;
+
+	position:relative;
+	top:80px;
+	background-color:;
+	border-radius:5px;
+	padding:20px;
+	padding-left:25px;
+	box-shadow:10px 5px 15px 25px rgba(0,0,0,0.5);
+	
+	
+	
+}
+
+.icon2 
+{
+  margin-left:45px;
+  padding: 15px;
+  background:white;
+  color: green;
+  min-width: 50px;
+  text-align: center;
+  font-size:25px;
+  border:1px solid red;
+  border-radius:50px 0px 0px 50px;
+}
+
+
+
+
+
+
+
+
+.input-group label
+{
+	margin-left:75px;
+	font-size:25px;
+	color:green;
+	
+}
+.input-group input
+{
+margin-left:-5px;	
+width:50%;
+border-left:none;
+	border-radius:0px 30px 30px 0px;
+
+padding:7px;
+padding-left:20px;
+
+font-size:18px;
+font-weight:bold;
+
+}
+
+
+.input-group1 label
+{
+	margin-left:55px;
+	font-size:25px;
+	color:green;
+
+}
+.input-group  i
+{
+	margin-left:10px;
+	padding-top:9.2px;
+	padding-left:10px;
+	padding-bottom:1px;
+    background-color:white;
+	height:25px;
+	border-left:2px solid black;
+	border-top:2px solid black;
+
+	border-bottom:2px solid black;
+	border-radius:29px 0px 0px 30px;
+
+}
+
+.input-group1 input
+{
+margin-left:-5px;	
+width:50%;
+border-left:none;
+	border-radius:0px 30px 30px 0px;
+
+padding:7px;
+padding-left:20px;
+
+font-size:18px;
+font-weight:bold;
+
+}
+.input-group1  i
+{
+	margin-left:10px;
+	padding-top:9.5px;
+	padding-left:10px;
+	padding-bottom:0.5px;
+    background-color:white;
+
+	height:25px;
+	border-left:2px solid black;
+	border-top:2px solid black;
+
+	border-bottom:2px solid black;
+	border-radius:29px 0px 0px 29px;
+
+}
+
+
+.input-group2 label
+{
+	margin-left:55px;
+	font-size:25px;
+	color:green;
+
+}
+.input-group2 input
+{
+margin-left:-5px;	
+width:50%;
+border-left:none;
+	border-radius:0px 30px 30px 0px;
+
+padding:7px;
+padding-left:20px;
+
+font-size:18px;
+font-weight:bold;
+
+}
+.input-group2  i
+{
+	margin-left:10px;
+	padding-top:9.5px;
+	padding-left:10px;
+	padding-bottom:1px;
+    background-color:white;
+
+	height:25px;
+	border-left:2px solid black;
+	border-top:2px solid black;
+
+	border-bottom:2px solid black;
+	border-radius:30px 0px 0px 30px;
+
+}
+
+.input-group3 label
+{
+	margin-left:30px;
+	font-size:25px;
+	color:green;
+
+}
+.input-group3 input
+{
+margin-left:-5px;	
+width:50%;
+border-left:none;
+	border-radius:0px 30px 30px 0px;
+
+padding:7px;
+padding-left:20px;
+
+font-size:18px;
+font-weight:bold;
+}
+.input-group3  i
+{
+	margin-left:10px;
+	padding-top:9.4px;
+	padding-left:10px;
+	padding-bottom:0.7px;
+    background-color:white;
+
+	height:25px;
+	border-left:2px solid black;
+	border-top:2px solid black;
+
+	border-bottom:2px solid black;
+	border-radius:30px 0px 0px 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+input[type="password"]:focus 
+{
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+ 
+}
+input[type="text"]:focus 
+{
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+ 
+}
+
+.login-button
+{
+  background-color:dodgerblue;
+  width: 25%;
+  color:white;
+  padding:10px 20px;
+  outline: none;
+  border:none;
+  font-size:25px;
+  font-family:monospace;
+  border-radius:50px;
+  cursor:pointer;
+  font-weight:bold;
+  margin-left:25%;
+}
+.login-button1
+{
+	  background-color:dodgerblue;
+  width: 25%;
+  height: 7.5%;
+  color:white;
+  padding:10px 20px;
+  outline: none;
+  border:none;
+  font-size:25px;
+  font-family:monospace;
+  border-radius:50px;
+  cursor:pointer;
+  font-weight:bold;
+  margin-left:55%;
+  margin-top:-54px;
+
+}
+.login-button:hover
+{
+	background-color:white;
+	color:dodgerblue;
+	border:1px solid dodgerblue;
+}
+.login-button1:hover
+{
+	background-color:white;
+	color:dodgerblue;
+	border:1px solid dodgerblue;
+}
+
+
+
+
+
+/*Admin Login CSS Ended Here*/
+
+
+

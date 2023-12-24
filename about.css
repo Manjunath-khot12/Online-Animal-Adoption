@@ -1,0 +1,197 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing:border-box;
+	font-family:"poppins",sans-serif;
+}
+.navbar{
+	position: fixed;
+	height: 80px;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.3);
+	z-index:100;
+}
+.navbar .logo{
+	width: 140px;
+	height: 75px;
+	padding: 15px 10px;
+	margin-left:85px;
+	margin-top:10px;
+}
+.navbar ul{
+	float: right;
+	margin-right: 50px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 13px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+}
+footer
+{
+   padding:30px;
+   position:fixed ;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   font-size:15px;
+}
+/*about us css*/
+
+   .about-section
+ {
+	 padding:40px;
+	 text-align:center;
+	 background-color:white;
+	 position:relative;
+
+ }
+ 
+
+.heading
+{
+	position:relative;
+	margin-left:80px;
+	font-family:monospace;
+	font-size:30px;
+	text-decoration:underline;
+	top:-600px;
+
+
+}
+.heading1
+{
+	position:relative;
+	top:-580px;
+	margin-left:700px;
+	font-family:monospace;
+	font-size:25px;
+    border:2px solid back;
+
+}
+.ab .kar
+{
+	  border:1px solid black;
+	  padding-top:0px;
+	  position:relative;
+	  top:40px;
+	   
+	  
+}
+
+.row
+{
+	display:flex;
+	flex-wrap:wrap;
+	padding:2em 1em;
+	text-align:center;
+	margin-bottom:50px;
+}
+.column
+{
+	width:100%;
+	padding:0.5rem 0;
+    box-shadow:10px 8px #fffff;
+}
+h1
+{
+		width:100%;
+	text-align:center;
+	font-size:3.5em;
+	color:#1f003b;
+	
+	
+}
+.card
+{
+	box-shadow:0 0 0.2em rgba(25,0,58,0.15);
+	padding:3.5em 1em;
+	border-radius:0.6em;
+	color:#1003b;
+	cursor:pointer;
+	transition:0.3s;
+	background-color:lightblue;
+	
+}
+.card .img-container
+{
+	width:8em;
+	height:8em;
+	background-color:#a993ff;
+	padding:0.5em;
+	border-radius:50%;
+	margin:0 auto 2em auto;
+	
+	
+}
+.card img
+{
+	width:10%;
+	border-radius:50%;
+	
+}
+.card h3
+{
+font-weight:500;
+color:black;
+
+}
+.card p{
+	font-weight:300;
+	text-transform:uppercase;
+	margin:0.5em 0.2em 0;
+	letter-spacing:2px;
+	color:red;
+
+}
+.icons
+{
+	width:50%;
+	min-width:180px;
+	margin:auto;
+	display:flex;
+	justify-content:space-between;
+}
+.card a{
+	text-decoration:none;
+	color:inherit;
+	font-size:1.4em;
+	
+}
+.card:hover{
+	background:linear-gradient(#6045ea,#8567f7);
+	color:#ffffff;
+}
+.card:hover .img-container{
+	transform:scale(1.1);
+	
+}
+.card
+{
+	padding:5em 1em;
+}
+.column
+{
+	max-width:33%;
+	padding: 1em;
+	
+}
